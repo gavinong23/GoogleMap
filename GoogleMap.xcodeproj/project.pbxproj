@@ -16,6 +16,7 @@
 		E9491CCD20CFBA7200AA2081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9491CCB20CFBA7200AA2081 /* LaunchScreen.storyboard */; };
 		E9491CD820CFBA7300AA2081 /* GoogleMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9491CD720CFBA7300AA2081 /* GoogleMapTests.swift */; };
 		E9491CE320CFBA7300AA2081 /* GoogleMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9491CE220CFBA7300AA2081 /* GoogleMapUITests.swift */; };
+		E9D551FD20D205E10069087C /* autoCompleteAddressService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D551FC20D205E10069087C /* autoCompleteAddressService.swift */; };
 		E9D96F0E4296B71E15619473 /* Pods_GoogleMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D784AEF6F4BB90EC5B71A75A /* Pods_GoogleMap.framework */; };
 		E9DDA5E920D0E134003C40BB /* AutoCompleteAddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DDA5E720D0E134003C40BB /* AutoCompleteAddressTableViewCell.swift */; };
 		E9DDA5EA20D0E134003C40BB /* AutoCompleteAddressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9DDA5E820D0E134003C40BB /* AutoCompleteAddressTableViewCell.xib */; };
@@ -61,6 +62,7 @@
 		E9491CDE20CFBA7300AA2081 /* GoogleMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9491CE220CFBA7300AA2081 /* GoogleMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapUITests.swift; sourceTree = "<group>"; };
 		E9491CE420CFBA7300AA2081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D551FC20D205E10069087C /* autoCompleteAddressService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autoCompleteAddressService.swift; sourceTree = "<group>"; };
 		E9DDA5E720D0E134003C40BB /* AutoCompleteAddressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteAddressTableViewCell.swift; sourceTree = "<group>"; };
 		E9DDA5E820D0E134003C40BB /* AutoCompleteAddressTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoCompleteAddressTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,6 +138,7 @@
 				E9491CCE20CFBA7200AA2081 /* Info.plist */,
 				E9DDA5E720D0E134003C40BB /* AutoCompleteAddressTableViewCell.swift */,
 				E9DDA5E820D0E134003C40BB /* AutoCompleteAddressTableViewCell.xib */,
+				E9D551FC20D205E10069087C /* autoCompleteAddressService.swift */,
 			);
 			path = GoogleMap;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 				E9DDA5E920D0E134003C40BB /* AutoCompleteAddressTableViewCell.swift in Sources */,
 				E9491CC520CFBA7200AA2081 /* ViewController.swift in Sources */,
 				E9491CC320CFBA7200AA2081 /* AppDelegate.swift in Sources */,
+				E9D551FD20D205E10069087C /* autoCompleteAddressService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
